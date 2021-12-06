@@ -13,3 +13,9 @@ jobs:
           npm install -D vuepress
     - run:
           npm run docs:build
+    - run:
+          cd docs/.vuepress/dist
+          git init
+          git add -A
+          git commit -m 'deploy'
+          git push -f git@github.com:ajilalv/avapps-doc.git main:gh-pages
