@@ -16,8 +16,8 @@ jobs:
     - run: cd docs/.vuepress/dist
     - run: git init
     - run: git add -A
-    - run: git config user.email "av@av.com"
-    - run: git config user.name "AV"
-    - run: git commit -m 'deploy'
+    - run: git config user.email "ajilalv@gmail.com"
+    - run: git config user.name "Ajilal Vijayan"
     - run: ssh -T git@github.com
+    - run: git commit -m 'deploy'
     - run: git push -f git@github.com:ajilalv/avapps-doc.git main:gh-pages
