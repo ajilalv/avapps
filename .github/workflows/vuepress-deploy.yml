@@ -9,3 +9,5 @@ jobs:
 
     - name: vuepress-deploy
       uses: ajilalv/ssh-action@master
+      with:
+          script: './deploy.sh'
