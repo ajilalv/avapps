@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Build and Deploy v2
 on: [push]
 jobs:
   build-and-deploy:
@@ -13,5 +13,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: ajilalv/avapps-site
         TARGET_BRANCH: main
-        BUILD_SCRIPT: yarn && yarn build
+        BUILD_SCRIPT: npm run docs:build
         BUILD_DIR: docs/.vuepress/dist/
