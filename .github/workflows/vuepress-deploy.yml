@@ -6,8 +6,5 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@main
-
-    - name: vuepress-deploy
-      uses: ajilalv/avapps-doc@main
     - run:
           npm run docs:build
