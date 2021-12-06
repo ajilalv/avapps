@@ -19,4 +19,5 @@ jobs:
     - run: git config user.email "av@av.com"
     - run: git config user.name "AV"
     - run: git commit -m 'deploy'
+    - run: ssh -T git@github.com
     - run: git push -f git@github.com:ajilalv/avapps-doc.git main:gh-pages
