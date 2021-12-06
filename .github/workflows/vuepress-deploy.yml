@@ -8,6 +8,6 @@ jobs:
       uses: actions/checkout@main
 
     - name: vuepress-deploy
-      uses: ajilalv/avapps-doc@master
+      uses: ajilalv/avapps-doc@main
       with:
           script: './deploy.sh'
