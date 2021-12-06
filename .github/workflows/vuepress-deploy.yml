@@ -8,10 +8,4 @@ jobs:
       uses: actions/checkout@main
 
     - name: vuepress-deploy
-      uses: ajilalv/avapps@main
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: ajilalv/avapps
-        TARGET_BRANCH: gh_pages
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: avapps/doc/.vuepress/dist/
+      uses: ajilalv/ssh-action@master
