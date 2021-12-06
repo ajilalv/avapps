@@ -9,5 +9,5 @@ jobs:
 
     - name: vuepress-deploy
       uses: ajilalv/avapps-doc@main
-      with:
-          script: './deploy.sh'
+    - run:
+          npm run docs:build
