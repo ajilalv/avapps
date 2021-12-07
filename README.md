@@ -1,8 +1,8 @@
 # AVapps
-## VuePress Apps Documentation
+### VuePress Apps Documentation
 
-### This is the apps documentation site and this is deployed to <code>avapps-site repo </code>
-[Site](https://github.com/ajilalv/avapps-site)
+This is the apps documentation site and this is deployed to <code>avapps-site repo </code>
+[Site](https://github.com/ajilalv/avapps-site){:target="_blank"}
 
-[Live here](https://avapps.glitch.me)
+[Live here](https://avapps.glitch.me){:target="_blank"}
 
