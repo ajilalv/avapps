@@ -3,7 +3,8 @@
 
 This is the apps documentation site and this is deployed to <code>avapps-site repo </code>
 
-[Site](https://github.com/ajilalv/avapps-site){:target="_blank"}
+<a href="https://github.com/ajilalv/avapps-site" target="_blank">Site</a>
 
-[Live here](https://avapps.glitch.me){:target="_blank"}
+<a href="https://avapps.glitch.me" target="_blank">Live here</a>
+
 
