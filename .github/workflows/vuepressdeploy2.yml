@@ -1,5 +1,6 @@
 name: Build and Deploy v2
-on: [push]
+#push not needed
+on: [workflow_dispatch]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
