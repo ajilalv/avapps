@@ -1,3 +1,3 @@
 # Contact
-Ajilal Vijayan
-ajilalv@gmail.com
+
+ajilalv at gmail dot com

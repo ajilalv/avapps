@@ -1,4 +1,5 @@
 ---
+title: Versions
 ---
 
 ::: tip Compatiable from 2012 to latest
@@ -8,7 +9,7 @@ All versions are compatible with Autodesk **2012**
 ### Version History
 |Version|Date|Compatible with|
 |--|--|--|
-|8.3.0.0|Current|2021 to 2012|
+|8.3.0.0|<Badge text="Current" type="tip"/>|2021 to 2012|
 |8.1.0.0|01 May 2018|2019 to 2012
 |8.0.0.0|04 Feb 2018|
 |7.0.0.0|27 Apr 2017|2018 to 2012

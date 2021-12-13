@@ -1,8 +1,9 @@
 ---
+title: Suggestions
 ---
 
 ### Status of Bugs/Suggestions
-|Issue|Status|Updated Version|
+|Issue|Status|Version|
 |---------------------|--|-------|
 |Option to run a script or lisp on the drawings|<Badge text="Ongoing" type="warning"/>|
 |Scan while opening drawing not working without running purge for one time|<Badge text="Ongoing" type="warning"/>|

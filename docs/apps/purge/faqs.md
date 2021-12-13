@@ -1,14 +1,13 @@
 ---
 title: FAQs
 sidebarDepth: 2
-apploc: File Location
+approot: C:\Users\Username\AppData\Roaming\Autodesk\ApplicationPlugins\AVVADwgPurge.bundle
 ---
 # Frequently Asked Questions
 [[toc]]
 
 
 ## Will this app work on AutoCAD LT ?
-**No**.
 ::: warning Autocad LT Limitations
 Autocad LT does not support any API features (Control drawings and databases with ActiveX, VBS,..
 AutoLisp, Visual LISP, ObjectARX, JavaScript, and .NET.)
@@ -16,19 +15,21 @@ AutoLisp, Visual LISP, ObjectARX, JavaScript, and .NET.)
 
 So unfortunately this app will **not** work with AutoCAD LT.
 
+## App Installed Location :file_folder:
+- The app files are installed to below location.
+::: tip App Location 
+{{$frontmatter.approot}}
+:::
+
+
 ## How to load the app manually ?
 After installing Drawing Purge , if you are not able to run the command or can't see the command in ribbon.
 Please try the following.
-- The app files are installed to below location.
-::: tip {{$frontmatter.apploc}}
-C:\Users\Username\AppData\Roaming\Autodesk\ApplicationPlugins\AVVADwgPurge.bundle
-:::
 
 ![App Folder](/img/applocation.png)
 - In Autocad command line type  <code>**NETLOAD**</code> and select AVVADrawingPurge08-20xx.dll from below location
-::: tip {{$frontmatter.apploc}}
-C:\Users\Username\AppData\Roaming\Autodesk\ApplicationPlugins\AVVADwgPurge.bundle\Contents\Windows
-:::
+
+    <code>{{$frontmatter.approot}}\Contents\Windows</code>
 - Choose the folder based on the CAD version you have.
 - Select AVVADrawingPurge08-20xx.dll and click to load.
 - Once the file is loaded, try to run  <code>**DWG-PURGE**</code>or<code>**DWG-PURGE-BATCH**</code>command.
@@ -49,9 +50,9 @@ Please try the following steps.
 ![CUILOAD](/img/cuiload.png)
 -  If the drawing purge group already there, **Unload** it and then click **Browse** and select 
     AjilalVijayan_DrawingPurge.cuix from folder
-::: tip {{$frontmatter.apploc}}
-C:\Users\Username\AppData\Roaming\Autodesk\ApplicationPlugins\AVVADwgPurge.bundle\Contents\Resources.
-:::
+
+    <code>{{$frontmatter.approot}}\Contents\Resources</code>
+
 -  And click the  **Load** button.
 -  Close the CUILOAD window and check whether the app is visible in the ribbon.
 -  If the app is not visible, restart autocad and check again.
@@ -66,9 +67,8 @@ Then try the command again.
 
 ## Purge Settings folder not found
 By default, the purge settings files are saved to below location.
-::: tip {{$frontmatter.apploc}}
-C:\Users\UserName\AppData\Roaming\Autodesk\ApplicationPlugins\AVVADwgPurge.bundle\Contents\DwgPurgeSettings
-:::
+
+<code>{{$frontmatter.approot}}Contents\DwgPurgeSettings</code>
 
 You can save the folder **DwgPurgeSettings** to any location you prefer to share the purge settings with other users.
 If you are receiving an error as shown below, which says the purge settings folder is not found,
@@ -97,12 +97,11 @@ After selecting the folder, click <code>Reset</code> button
 - Open a new drawing and import the dxf file by using <code>DXFIN</code>
 - Again enter <code>DXFOUT</code>in this new drawing and save the dxf file at any location.
 - Open a new drawing and import the dxf file created in step 3 by using <code>DXFIN</code>.
-- Save this drawing and run DWG-PURGE <Badge text="Command" type="tip"/> command.
+- Save this drawing and run <code>DWG-PURGE</code> command.
 
 ## Change System Variables
 To change the System Variables values, please open the **SysVarTemplate.dwg** file and change the values in that drawing.
 
 **SysVarTemplte.dwg** can be located in the app settings folder
-::: tip {{$frontmatter.apploc}}
-C:\Users\UserName\AppData\Roaming\Autodesk\ApplicationPlugins\AVVADwgPurge.bundle\Contents\DwgPurgeSettings
-:::
+
+<code>{{$frontmatter.approot}}Contents\DwgPurgeSettings</code>
