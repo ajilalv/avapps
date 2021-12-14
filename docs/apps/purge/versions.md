@@ -34,6 +34,13 @@ All versions are compatible with Autodesk **2012**
 - Different icon for the Batch Purge command.
 - And fixed the bugs reported recently.
 
+### Version 6.2.0 
+- Backup the drawings while using 'Replace/Overwrite drawing' option. 
+This option is added because batch purge crash randomly on some files.
+- Additional tools added. 
+There is a new tab to set the additional options for the drawing, such as system variables, switching layouts and changing units.
+- Now you can reset the Purge settings folder location to your preference location to avoid read/write permission error  and profile changes error.
+
 ### Version 6.0
 **Issues fixed**
 - Preview/Thumbnail is missing after batch purge.
