@@ -37,7 +37,7 @@ Please try the following.
 ## How to avoid manual loading ?
 If you want to avoid loading the app manually for each session of AutoCAD, try the following.
 
-- Download this lisp file and save to your computer.
+- Download this [lisp file](/DwgPurgeAutoLoader.lsp) and save to your computer.
 - At the command line type <code>**APPLOAD**</code>and select the lisp file you downloaded or drag/drop the lisp file to AutoCAD
 - Click **Load** and close the dialog.
 - Then at the command line type <code>**LoadDwgPurge**</code>and enter
