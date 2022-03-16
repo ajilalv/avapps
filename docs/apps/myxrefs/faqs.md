@@ -19,6 +19,7 @@ There is an issue in Autodesk 2022 products which is not loading the arx files a
 
 Untill this issue is solved, please try below workaround to use this app.
 
+- Download this xml file []
 - In windows explorer, goto the app installed folder
 <code>{{$frontmatter.approot}}</code>
 
