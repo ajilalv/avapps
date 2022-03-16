@@ -23,4 +23,4 @@ Untill this issue is solved, please try below workaround to use this app.
 - In windows explorer, goto the app installed folder
 <code>{{$frontmatter.approot}}</code>
 - Replace the 'PackageContents.xml' file with the new file you downloaded.
-- Now in AutoCAD, type APPLOAD 
+- Now in AutoCAD, type <code>APPLOAD</code>
