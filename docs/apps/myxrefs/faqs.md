@@ -22,8 +22,8 @@ Untill this issue is solved, please try below workaround to use this app.
 - Download this [xml file](/PackageContents.xml)
 - In windows explorer, goto the app installed folder
 <code>{{$frontmatter.approot}}</code>
-- Replace the 'PackageContents.xml' file with the new file you downloaded.
+- Replace the <code>PackageContents.xml</code> file with the new file you downloaded.
 - Now in AutoCAD, type <code>APPLOAD</code>
-- In that window, click 'Contents' button to open Startup suite
-- In the startup suite click 'Add' button and select 'SQLiteLsp24x64.arx' from folder 'C:\Users\USERNAME\AppData\Roaming\Autodesk\ApplicationPlugins\AVVA-MyXrefs.bundle\Contents\Windows\2021'
+- In that window, click <code>Contents</code> button to open Startup suite
+- In the startup suite click <code>Add</code> button and select <code>SQLiteLsp24x64.arx</code> from folder <code>{{$frontmatter.approot}}</code>\Contents\Windows\2021'
 - close all the windows and Restart AutoCAD.
